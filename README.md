@@ -275,3 +275,24 @@ end
 
 ```
 
+
+## The Elm Frontend
+
+1. Create a new project by first running 
+
+`mkdir tasks_site` and `cd tasks_site`
+
+then running
+
+`yarn init` and follow the prompts to set up the project
+
+next we need to install some dev dependencies for the project
+
+`yarn add -D parcel@next elm`
+
+and add some folders to ignore to `.gitignore`
+
+`/node_modules`
+
+2. next we need to initialise the elm project by typing `yarn elm init` which runs the elm init
+   command through yarn
